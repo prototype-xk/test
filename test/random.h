@@ -1,3 +1,5 @@
 #pragma once
-#include <random>
-int getRandomNumber(int min, int max);
+
+struct random {
+	int getRandomNumber(int min, int max);
+};
